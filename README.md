@@ -19,20 +19,24 @@ pip install -r requirements.txt
 
 Running locally
 
-``bash
+```bash
 export OPENWEATHER_API_KEY="YOUR_API_KEY"
 python app/app.py
 ```
 
 The backend runs on:
+```bash
 http://127.0.0.1:5000OpenWeatherMap API key setup
+```
 
 Go to https://openweathermap.org/api
 Sign up for a free account
 Generate an API key
 
 Set the API key as an environment variable:
+```bash
 export OPENWEATHER_API_KEY="YOUR_API_KEY"
+```
 
 API endpoint
 GET /weather/<location_key>
@@ -48,8 +52,9 @@ The endpoint returns current weather data including temperature, weather descrip
 and optionally humidity and wind speed.
 
 Optional curl examples
+```bash
 curl http://127.0.0.1:5000/weather/newyork
 curl http://127.0.0.1:5000/weather/sydney
 curl http://127.0.0.1:5000/weather/capetown
 curl http://127.0.0.1:5000/weather/bangkok
-
+```
