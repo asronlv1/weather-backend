@@ -15,14 +15,14 @@ Installation
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-```bash
+```
 
 Running locally
 
 ``bash
 export OPENWEATHER_API_KEY="YOUR_API_KEY"
 python app/app.py
-```bash
+```
 
 The backend runs on:
 http://127.0.0.1:5000OpenWeatherMap API key setup
