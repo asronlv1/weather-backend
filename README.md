@@ -6,11 +6,10 @@ This project includes two parts:
 
 Running locally means running the application directly on your machine using Python, without Docker.
 
-==================================================
-| backend
-==================================================
+Backend
+---------------
 
-## Installation
+Installation
 
 ```bash
 python3 -m venv .venv
@@ -27,9 +26,7 @@ The backend runs on:
 http://127.0.0.1:5000OpenWeatherMap API key setup
 
 Go to https://openweathermap.org/api
-
 Sign up for a free account
-
 Generate an API key
 
 Set the API key as an environment variable:
@@ -41,11 +38,8 @@ GET /weather/<location_key>
 Supported location keys:
 
 newyork
-
 sydney
-
 capetown
-
 bangkok
 
 The endpoint returns current weather data including temperature, weather description,
